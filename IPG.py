@@ -24,7 +24,7 @@
 
 # # Set up Entrez
 # Entrez.email = "hodane@utu.fi"
-# Entrez.api_key = "e610ec52bc19b63c812ae683a098e32ecc08"
+# Entrez.api_key = "..."
 
 # def get_refseq_data(protein_accession):
 #     try:
@@ -92,7 +92,7 @@
 
 # # Set up Entrez
 # Entrez.email = "hodane@utu.fi"
-# Entrez.api_key = "e610ec52bc19b63c812ae683a098e32ecc08"
+# Entrez.api_key = "..."
 
 # def get_refseq_data(protein_accession):
 #     try:
@@ -162,7 +162,7 @@ from Bio import Entrez
 import pandas as pd
 
 Entrez.email = "hodane@utu.fi"
-Entrez.api_key = "e610ec52bc19b63c812ae683a098e32ecc08"
+Entrez.api_key = "..."
 
 def get_refseq_data(protein_accession):
     try:
